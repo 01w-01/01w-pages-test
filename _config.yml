@@ -1,0 +1,8 @@
+title: 01w 的博客试验田
+description: 从几个 Markdown 文件开始，练习一次完整的网站发布。
+lang: zh-CN
+theme: jekyll-theme-cayman
+url: https://01w-01.github.io
+baseurl: /01w-pages-test
+exclude:
+  - README.md
