@@ -42,6 +42,8 @@ git push origin main
 
 网页和本地交替编辑时，先 `git pull --ff-only`，避免遗漏网页上的新提交。
 
+上面的命令假设 Git 作者身份和推送认证已配置。本次 VPS 未配置默认作者和 HTTPS 凭据助手，因此发布时使用命令级 `git -c user.name=... -c user.email=... commit ...`（GitHub noreply 邮箱），以及 `git -c credential.helper= -c 'credential.helper=!gh auth git-credential' push -u origin main`。没有修改全局 Git 配置，也没有把登录凭据写进仓库。明天第一次练习建议直接用 GitHub 网页编辑，最省事。
+
 ## 为什么配置 baseurl？
 
 这是项目站点，不是账号根站点：
