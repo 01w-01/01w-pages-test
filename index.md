@@ -9,6 +9,12 @@ title: 首页
 
 这是一块小小的博客试验田：暂时没有域名、评论和复杂框架，只有文字与链接。
 
+## 搭建过程详解
+
+[从命令到网页：本次搭建过程]({{ '/setup-guide.html' | relative_url }})
+
+按步骤讲解创建仓库、Git 提交与推送、开启 Pages，以及 GitHub 如何构建和发布网站。
+
 ## 从这里开始
 
 - [第一篇：只写 Markdown，也能拥有网页]({{ '/hello.html' | relative_url }})

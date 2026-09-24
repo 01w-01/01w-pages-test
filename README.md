@@ -4,6 +4,10 @@
 
 本仓库公开，只存放演示内容。使用 GitHub Pages 内置的 Jekyll 构建，无需本地安装 Ruby、Jekyll 或 Node.js。
 
+## 命令与原理详解
+
+阅读 **[从命令到网页：本次搭建过程](https://01w-01.github.io/01w-pages-test/setup-guide.html)**，或查看源文件 [`setup-guide.md`](setup-guide.md)。按操作顺序解释命令参数、Pages API、构建部署和实际排错。
+
 ## 文件导航
 
 | 文件 | 作用 |
@@ -13,6 +17,7 @@
 | `next-step.md` | 新增、修改文章的练习 |
 | `_config.yml` | 网站标题、主题、URL 与项目子路径 |
 | `README.md` | 本说明；排除在网站构建之外 |
+| `setup-guide.md` | 本次搭建过程、命令与原理详解 |
 
 ## 这次怎么搭的
 
