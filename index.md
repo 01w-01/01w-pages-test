@@ -29,3 +29,9 @@ title: 首页
 [查看源码与中文搭建说明](https://github.com/01w-01/01w-pages-test)
 
 > 这是公开演示站。不要把密码、令牌或私人笔记提交到这里。
+
+## 第一篇自己写的blog-test
+[01w-01-01](first.md)
+[01w-01-01]({{'/first.html' | relative_url }} )
+
+
